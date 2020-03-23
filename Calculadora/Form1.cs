@@ -39,7 +39,6 @@ namespace Calculadora
             operando1 = Convert.ToDouble(label1.Text);
             label1.Text = "0";
         }
-
         private void igualPuls(object sender, EventArgs e)
         {
             operando2 = Convert.ToDouble(label1.Text);
